@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="styleSheet" />
+    <link href="./media.css" rel="style styleSheet" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Durga's Portfolio</title>
+  </head>
+  <body>
+    <header id="header">
+      <a href="#" class="logo"> <span>D</span>urga's portfolio</a>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Project</a>
+        <a href="#">Blogs</a>
+        <a href="#">Contact Me</a>
+      </nav>
+      <button class="btn btn_1">Let's Talk</button>
+    </header>
+
+    <!-- /////////////// home section //////////////// -->
+
+    <section id="home">
+      <div class="home_part_1">
+        <h1 class="heading">
+          I Am <strong>Durga</strong><br />
+          Full Stack Web Developer
+        </h1>
+        <p class="paragraph">
+          "As a beginner in Computer Science and Engineering, I am eager to
+          contribute my growing skills and knowledge to an organization that
+          values innovation and professional development. Through my internship,
+          I aim to further enhance my technical abilities while supporting the
+          organization's goals and initiatives, ultimately contributing to its
+          success and growth."
+        </p>
+        <div class="home_btns">
+          <button class="btn btn_2">Hire Me</button>
+          <button class="btn btn_3">How i Work</button>
+        </div>
+      </div>
+      <div>
+        <!-- <img
+          src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_640.png"
+          alt="user image"
+          class="developer_image"
+        /> -->
+        <img
+          src="./img/PngItem_2187596.png"
+          alt="user image"
+          class="developer_image"
+        />
+      </div>
+    </section>
+    <div>
+      <h1 class="background_heading">Durga's Portfolio</h1>
+    </div>
+
+    <!-- ///////////////////////// How do i help /////////////////////// -->
+
+    <section id="help">
+      <div class="help_part">
+        <h1>How do I<br /><strong>Help</strong></h1>
+        <p class="help_paragraph">
+          "To become a full-stack web developer, you need to gain proficiency in
+          both front-end and back-end technologies. This includes mastering
+          languages like HTML, CSS, and JavaScript for the front-end, as well as
+          server-side languages like Node.js for the back-end. Additionally,
+          learning databases, version control (e.g., Git), and frameworks (e.g.,
+          React, Angular) is essential. As a full-stack developer, you can help
+          customers by building comprehensive web applications that handle
+          everything from the user interface to server-side logic, providing
+          them with complete, end-to-end solutions tailored to their business
+          needs."
+        </p>
+      </div>
+      <div class="help_part">
+        <div class="details_development_part">
+          <div class="development_part">
+            <h2>Full Stack Web Developer</h2>
+            <p>47+ Design</p>
+          </div>
+          <ion-icon
+            class="right_arrow_icon"
+            name="arrow-forward-outline"
+          ></ion-icon>
+        </div>
+        <div class="details_development_part">
+          <div class="development_part">
+            <h2>Front-End Developer</h2>
+            <p>93+ Design</p>
+          </div>
+          <ion-icon
+            class="right_arrow_icon"
+            name="arrow-forward-outline"
+          ></ion-icon>
+        </div>
+        <div class="details_development_part">
+          <div class="development_part">
+            <h2>Back-End Developer</h2>
+            <p>27+ Design</p>
+          </div>
+          <ion-icon
+            class="right_arrow_icon"
+            name="arrow-forward-outline"
+          ></ion-icon>
+        </div>
+      </div>
+    </section>
+
+    <!-- //////////////// about me ///////////////////// -->
+    <section id="about">
+      <div class="about_section">
+        <img src="./img/user_2.jpg" alt="user image" class="user_image" />
+      </div>
+      <div class="about_section">
+        <h1>
+          More about<br />
+          <strong>Me</strong>
+        </h1>
+        <p class="about_para">
+          "My growing skills and knowledge to an organization that values
+          innovation and professional development. Through my internship, I aim
+          to further enhance my technical abilities while supporting the
+          organization's goals and initiatives, ultimately contributing to its
+          success and growth."
+        </p>
+        <div class="about_button">
+          <div>
+            <button class="about_btn active" onclick="showContent('skills')">
+              Skills
+            </button>
+          </div>
+          <div>
+            <button class="about_btn" onclick="showContent('experience')">
+              Experience
+            </button>
+          </div>
+          <div>
+            <button class="about_btn" onclick="showContent('education')">
+              Education
+            </button>
+          </div>
+        </div>
+        <div id="experience" class="tab-content hidden">
+          <h4>My Experience</h4>
+          <p>
+            "Present Working on <strong> GrrowUp</strong> as a Full Stack Web
+            Development Internship Program"
+          </p>
+        </div>
+        <div class="tab-contents tab-content hidden" id="education">
+          <h4>Education</h4>
+          <p>
+            <span>2019-2023</span>Vasireddy Venkatadri Institute of Technology
+            (B.Tech)
+          </p>
+          <p>
+            <span>2017-2019</span>Sri Chaitanya Junior College (Intermediate)
+          </p>
+          <p><span>2016-2017</span>Zenith High School (SSC)</p>
+        </div>
+
+        <!-- skills -->
+        <div id="skills" class="tab-content">
+          <h4>Front-End Skills</h4>
+          <div id="skill_ratio">
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="95">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">HTML</span>
+            </div>
+
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="82">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">CSS</span>
+            </div>
+
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="80">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">JavaScript</span>
+            </div>
+
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="82">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">React JS</span>
+            </div>
+
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="57">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">Java</span>
+            </div>
+
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="77">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">Python</span>
+            </div>
+          </div>
+          <h4>Back-End Skills</h4>
+          <div id="skill_ratio">
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="80">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">Node.js</span>
+            </div>
+
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="77">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">Express.js</span>
+            </div>
+
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="80">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">MongoDB</span>
+            </div>
+
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="56">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">Git</span>
+            </div>
+
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="47">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">Postman</span>
+            </div>
+
+            <div class="parent-skill">
+              <div class="skill">
+                <div class="progress" data-progress="33">
+                  <span class="progress-number">0%</span>
+                </div>
+              </div>
+              <span class="title">Template Engine</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ////////////////////// Works ////////////////////// -->
+
+    <section id="works">
+      <h1>My latest <strong>works</strong></h1>
+      <p class="works_para">
+        " As a full-stack developer, you can help customers by building
+        comprehensive web applications that handle everything from the user
+        interface to server-side logic, providing them with complete, end-to-end
+        solutions tailored to their business needs."
+      </p>
+      <div class="works_parts">
+        <div class="works_part_1">
+          <ion-icon class="work_icon" name="arrow-back-outline"></ion-icon>
+        </div>
+        <div class="works_part_2">
+          <div>
+            <img
+              class="work_image"
+              src="./img/work_1.jpg"
+              alt="Working Project images"
+            />
+          </div>
+          <div>
+            <img
+              class="work_image"
+              src="./img/work_2.jpg"
+              alt="Working Project images"
+            />
+          </div>
+          <div>
+            <img
+              class="work_image"
+              src="./img/work_3.jpg"
+              alt="Working Project images"
+            />
+          </div>
+        </div>
+        <div class="works_part_3">
+          <ion-icon class="work_icon" name="arrow-forward-outline"></ion-icon>
+        </div>
+      </div>
+      <div class="see_btn">
+        <button class="work_btn">See more</button>
+      </div>
+    </section>
+
+    <!-- /////////////////////////////////////// -->
+
+    <section id="programs">
+      <div class="program_parts">
+        <h1>1.5+</h1>
+        <p>Years of Experience</p>
+      </div>
+      <div class="program_parts">
+        <h1>147+</h1>
+        <p>Complete Project</p>
+      </div>
+      <div class="program_parts">
+        <h1>93+</h1>
+        <p>Happy Client</p>
+      </div>
+    </section>
+
+    <!-- //////////////////////////////////////// -->
+
+    <!-- client rating -->
+
+    <section id="Client_aboutMe">
+      <h1>
+        Client talks about<br />
+        <strong> my work</strong>
+      </h1>
+      <p class="client_talks_aboutMe">
+        "Here’s how a client might speak positively about your work<br />
+        as a full-stack web developer."
+      </p>
+      <div class="clients_part">
+        <div class="client client_3">
+          <div class="client_image_name">
+            <img
+              class="client_image"
+              src="./img/work_3.jpg"
+              alt="client image"
+            />
+            <div>
+              <h4 class="client_name">Jahnavi</h4>
+              <p class="client_position">CEO</p>
+            </div>
+          </div>
+          <p class="client_para">
+            "I've worked with many developers, but Durga's stands out. Their
+            ability to seamlessly handle both front-end and back-end development
+            was impressive. They understood our vision and translated it into a
+            user-friendly and responsive website. They were always on time with
+            deliverables, and their problem-solving skills are top-notch."
+          </p>
+          <div class="client_rating">
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-half-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="client client_1">
+          <div class="client_image_name">
+            <img
+              class="client_image"
+              src="./img/work_3.jpg"
+              alt="client image"
+            />
+            <div>
+              <h4 class="client_name">Ram</h4>
+              <p class="client_position">CEO</p>
+            </div>
+          </div>
+          <p class="client_para">
+            "I've worked with many developers, but Durga's stands out. Their
+            ability to seamlessly handle both front-end and back-end development
+            was impressive. They understood our vision and translated it into a
+            user-friendly and responsive website. They were always on time with
+            deliverables, and their problem-solving skills are top-notch."
+          </p>
+          <div class="client_rating">
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-half-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="client client_2">
+          <div class="client_image_name">
+            <img
+              class="client_image"
+              src="./img/work_3.jpg"
+              alt="client image"
+            />
+            <div>
+              <h4 class="client_name">Krishna</h4>
+              <p class="client_position">CEO</p>
+            </div>
+          </div>
+          <p class="client_para">
+            "I've worked with many developers, but Durga's stands out. Their
+            ability to seamlessly handle both front-end and back-end development
+            was impressive. They understood our vision and translated it into a
+            user-friendly and responsive website. They were always on time with
+            deliverables, and their problem-solving skills are top-notch."
+          </p>
+          <div class="client_rating">
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+            <ion-icon name="star-half-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <ion-icon class="arrows_icon" name="arrow-back-outline"></ion-icon>
+        <ion-icon class="arrows_icon" name="arrow-forward-outline"></ion-icon>
+      </div>
+    </section>
+
+    <!-- ////////////// article section ////////////////////////////////////////////// -->
+
+    <section id="article">
+      <h1>Learn more with <br /><strong>my article</strong></h1>
+
+      <div class="article">
+        <div class="article_part">
+          <img
+            src="./img/article_4.jpg"
+            alt="article images"
+            class="article_img"
+          />
+          <h3>Mastering the Art of Full Stack Development:</h3>
+          <p>
+            Unlock the secrets of FSD by mastering front-end and back-end.
+            seamlessly integrate these skills to build dynamic and robust.
+          </p>
+          <button class="readmore">Read more</button>
+        </div>
+        <div class="article_part">
+          <img
+            src="./img/article_3.jpg"
+            alt="article images"
+            class="article_img"
+          />
+          <h3>Navigating the Future for FSD Developer:</h3>
+          <p>
+            Discover effective strategies for balancing multiple technologies,
+            optimizing performance, managing complex projects.
+          </p>
+          <button class="readmore">Read more</button>
+        </div>
+        <div class="article_part">
+          <img
+            src="./img/article_2.jpg"
+            alt="article images"
+            class="article_img"
+          />
+          <h3>Essential Tools and Technologies:</h3>
+          <p>
+            version control to deployment, equip yourself with the knowledge to
+            streamline your workflow.
+          </p>
+          <button class="readmore">Read more</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------- contact details ----------------- -->
+
+    <section id="contact">
+      <div class="contact_details_1">
+        <h1>Let's talks for your <br /><strong>next projects</strong></h1>
+        <p>
+          As a full-stack developer, you can help customers by building
+          comprehensive web applications that handle everything from the user
+          interface to server-side.
+        </p>
+      </div>
+      <div class="contact_details_2">
+        <form class="contact_details_form">
+          <div class="form_details">
+            <label for="">Full Name*</label>
+            <input type="text" placeholder="Name:" />
+          </div>
+          <div>
+            <label for="">Email Address*</label>
+            <input type="email" placeholder="email:" />
+          </div>
+          <div>
+            <label for="">Phone Number*</label>
+            <input type="text" placeholder="Phone:" />
+          </div>
+          <div>
+            <label for="">Subject*</label>
+            <input type="text" placeholder="Subject:" />
+          </div>
+          <button class="contact_btn">Send a message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- /////////////   Company Icons   //////////////////////// -->
+
+    <section id="company_icons">
+      <img src="./img/google_icon.png" alt="company_icons" />
+      <img src="./img/ibm_icon.png" alt="company_icons" />
+      <img src="./img/infosys_icon.png" alt="company_icons" />
+      <img src="./img/microsoft_icon.png" alt="company_icons" />
+      <img src="./img/puma_icon.png" alt="company_icons" />
+      <img src="./img/tata_icon.png" alt="company_icons" />
+      <img src="./img/wipro_icon.png" alt="company_icons" />
+      <img src="./img/mahindra_icon.png" alt="company_icons" />
+    </section>
+
+    <!-- //////////////// footer /////////////// -->
+
+    <section id="footer">
+      <div class="details_icons">
+        <a href="#" class="logo"> <span>D</span>urga's portfolio</a>
+        <p class="address">
+          23-B, Vengal Rao Nagar, SR Nagar, Hyderabad,<br />
+          Telangana, PIN 500038
+        </p>
+        <p class="phone_number">
+          <ion-icon class="phone_icon" name="call-outline"></ion-icon> +91 86880
+          17971
+        </p>
+        <p class="gmail">
+          <ion-icon class="mail_icon" name="mail-open-outline"></ion-icon>
+          kethavathdurgaprasadnaik@gmail.com
+        </p>
+        <div class="icons">
+          <ion-icon class="icons_so" name="logo-instagram"></ion-icon>
+          <ion-icon class="icons_so" name="logo-whatsapp"></ion-icon>
+          <ion-icon class="icons_so" name="logo-facebook"></ion-icon>
+          <ion-icon class="icons_so" name="logo-google"></ion-icon>
+        </div>
+      </div>
+      <div class="footer_about">
+        <h4>About me</h4>
+        <div class="footer_about_1">
+          <a href="#">Portfolio</a>
+          <a href="#">My Blog</a>
+          <a href="#">Reviews</a>
+          <a href="#">projects</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+      <div class="footer_about">
+        <h4>Projects</h4>
+        <div class="footer_about_1">
+          <a href="#">Portfolio</a>
+          <a href="#">Google</a>
+          <a href="#">Microsoft</a>
+          <a href="#">Facebook</a>
+        </div>
+      </div>
+      <div class="contact_email">
+        <h4>Send us a email</h4>
+        <div class="contact_email_1">
+          <input type="text" placeholder="Email:" />
+          <button>Send</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="my">
+      <hr />
+      <div class="Copyright">
+        <footer>
+          Copyright &copy; 2024 Durga's Portfolio. All Rights Reserved
+        </footer>
+        <div>
+          Design By
+          <strong class="strong my_name">"Durga Prasad Naik Kethavath"</strong>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
